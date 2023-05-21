@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="522.0" style="-fx-background-color: #dacfe8;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calcfx.FXMLDocumentController">
+   <children>
+      <TextField fx:id="input" layoutX="48.0" layoutY="142.0" prefHeight="51.0" prefWidth="428.0" promptText="Enter the Expression :" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="142.0" />
+      <TextField fx:id="output" layoutX="48.0" layoutY="219.0" prefHeight="51.0" prefWidth="428.0" promptText="Output:" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="219.0" />
+      <Label fx:id="calc" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="42.0" prefHeight="60.0" prefWidth="254.0" text="Calculator" textFill="#784dc4" textOverrun="CENTER_ELLIPSIS" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="103.0" AnchorPane.topAnchor="42.0">
+         <font>
+            <Font name="Segoe UI Black Italic" size="37.0" />
+         </font>
+         <padding>
+            <Insets right="30.0" top="30.0" />
+         </padding>
+      </Label>
+      <Button fx:id="enter" layoutX="188.0" layoutY="304.0" mnemonicParsing="false" onAction="#calculatebtn" opacity="0.94" prefHeight="38.0" prefWidth="152.0" style="-fx-background-color: #784dc4;" text="Calculate" textFill="#fcf7f7" AnchorPane.leftAnchor="188.0" AnchorPane.rightAnchor="182.0" AnchorPane.topAnchor="304.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
